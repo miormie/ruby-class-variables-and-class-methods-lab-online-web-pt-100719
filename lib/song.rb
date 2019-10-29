@@ -22,6 +22,7 @@ class Song
   else 
     genres 
   end 
+end 
   
   # unless @@genres.include? (@genre)
   #   @@genres << @genre  
