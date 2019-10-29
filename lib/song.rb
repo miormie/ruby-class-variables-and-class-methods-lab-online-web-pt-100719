@@ -5,7 +5,6 @@ class Song
     
     @name = name 
     @artist = artist
-    @genre = genre
   end 
   @@count = 0 
   
@@ -13,7 +12,8 @@ class Song
     @@count
   end 
   def genres
-  
+   @genre = genre
+
    unless @@genres.include? (@genre)
     @@genres << @genre  
     
