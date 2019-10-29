@@ -11,7 +11,7 @@ class Song
   def count
     @@count
   end 
-  def genres
+  def genres (genre)
    @genre = genre
 
    unless @@genres.include? (@genre)
