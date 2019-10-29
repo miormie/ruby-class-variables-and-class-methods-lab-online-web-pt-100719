@@ -16,6 +16,8 @@ class Song
   
   if @@genres.include? (genre)
     @@genres << genre  
+    
+    @@genres 
   else
     @@genres 
   end 
