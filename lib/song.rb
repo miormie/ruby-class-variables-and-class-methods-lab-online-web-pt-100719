@@ -11,6 +11,8 @@ class Song
   def count
     @@count
   end 
+    @@genres = []
+
   def genres (genre)
    @genre = genre
 
@@ -21,5 +23,4 @@ class Song
   @@genres 
   end 
   
-  @@genres = []
 end 
