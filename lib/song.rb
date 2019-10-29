@@ -14,8 +14,8 @@ class Song
   end 
   def genres
   
-  if @@genres.include? (genre)
-    @@genres << genre  
+  if @@genres.include? (@genre)
+    @@genres << @genre  
     @@count
     
   else
