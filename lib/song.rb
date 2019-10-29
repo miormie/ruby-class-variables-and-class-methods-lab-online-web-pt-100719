@@ -16,7 +16,7 @@ class Song
   
   if @@genres.include? (@genre)
     @@genres << @genre  
-    @@count
+    
     
   else
     @@genres 
