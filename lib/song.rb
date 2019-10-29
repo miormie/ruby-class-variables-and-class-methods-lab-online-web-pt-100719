@@ -16,8 +16,10 @@ class Song
 
    unless @@genres.include? (@genre)
     @@genres << @genre  
-    
+  
   end
+  @@genres 
   end 
+  
   @@genres = []
 end 
