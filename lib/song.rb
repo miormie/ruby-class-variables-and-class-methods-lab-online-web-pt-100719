@@ -13,17 +13,20 @@ class Song
   end 
     @@genres = []
 
-  def genres 
-    @@genres.uniq 
+  def genres (genre)
+  @genre = genre
   
-  #   (genre)
-  # @genre = genre
-
+  @@genres.each do |genre| 
+  if genres |grenre|
+    genres += 1 
+  else 
+    genres 
+  
   # unless @@genres.include? (@genre)
   #   @@genres << @genre  
   
   # end
-  # @@genres 
+  @@genres 
   end 
   
 end 
