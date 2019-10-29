@@ -16,18 +16,10 @@ class Song
   def genres (genre)
   @genre = genre
   
-  @@genres.each do |genre| 
-  if genres |grenre|
-    genres += 1 
-  else 
-    genres 
-  end 
-end 
+ unless @@genres.include? (@genre)
+  @@genres << @genre  
   
-  # unless @@genres.include? (@genre)
-  #   @@genres << @genre  
-  
-  # end
+  end
   @@genres 
   end 
   
