@@ -14,12 +14,9 @@ class Song
   end 
   def genres
   
-  if @@genres.include? (@genre)
+   unless @@genres.include? (@genre)
     @@genres << @genre  
     
-    
-  else
-    @@genres 
   end 
   end 
   @@genres = []
